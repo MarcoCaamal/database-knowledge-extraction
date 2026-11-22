@@ -5,17 +5,17 @@
 **Format:** Exactly 5 students × approximately 2 minutes each.  
 **Dataset:** Sample Superstore, 2015–2018. Historical educational retail sample.  
 
-Replace the member placeholders with the five actual names before submission.
+Four participants have been identified. The fifth name and student ID are still pending because the assignment requires exactly five participants.
 
 | Participant | Slides | Approx. time | Responsibility |
 |---|---:|---:|---|
-| **Member 1 — Story Lead** | 1–2 | 0:00–2:00 | Setup, business question |
-| **Member 2 — Data Architect** | 3–4 | 2:00–4:00 | Data preparation, trend |
-| **Member 3 — Python Specialist** | 5–6 | 4:00–6:00 | Categories, distribution/line profitability |
-| **Member 4 — BI Lead** | 7–8 | 6:00–8:00 | Discount effect, geographic drill-down and dashboard demonstration |
-| **Member 5 — QA & Integration** | 9–10 | 8:00–10:00 | Recommendations, limitations, close |
+| **Juan Manuel Sánchez Hernández (2302084) — Story Lead** | 1–2 | 0:00–2:00 | Setup, business question |
+| **Seir Mendoza Vidal (2302072) — Data Architect** | 3–4 | 2:00–4:00 | Data preparation, trend |
+| **José Rodrigo de la Cruz Chim (2302089) — Python Specialist** | 5–6 | 4:00–6:00 | Categories, distribution/line profitability |
+| **Marco Antonio Caamal Chi (2302075) — BI Lead** | 7–8 | 6:00–8:00 | Discount effect, geographic drill-down and dashboard demonstration |
+| **[Fifth member: name and ID pending] — QA & Integration** | 9–10 | 8:00–10:00 | Recommendations, limitations, close |
 
-## Member 1 — Opening and Business Challenge (slides 1–2)
+## Juan Manuel Sánchez Hernández (2302084) — Opening and Business Challenge (slides 1–2)
 
 "Good morning. Our final project is called **The Cost of Discounting**. Our goal is not only to visualize sales, but to use data to support business decisions. We used the Sample Superstore educational dataset to explore retail activity over four years, from 2015 to 2018.
 
@@ -27,7 +27,7 @@ The key performance measures are total sales, total profit, profit margin, and u
 
 **Transition:** “Now let's see the data behind the analysis.”
 
-## Member 2 — Dataset and Time Trend (slides 3–4)
+## Seir Mendoza Vidal (2302072) — Dataset and Time Trend (slides 3–4)
 
 "We worked with **9,994 order lines**, representing **5,009 distinct orders** and **793 customers**. One important detail is that a single order can contain several product lines. Therefore, we count unique order IDs instead of treating every row as a separate order.
 
@@ -41,7 +41,7 @@ These findings are useful, but an aggregate trend is not enough. To understand p
 
 **Transition:** “The next section explains where the margin problem is concentrated.”
 
-## Member 3 — Category and Product-Line Profitability (slides 5–6)
+## José Rodrigo de la Cruz Chim (2302089) — Category and Product-Line Profitability (slides 5–6)
 
 "We calculated **weighted profit margins** as total profit divided by total sales for each group. This is different from simply averaging the profit margin of every row, which can produce misleading results.
 
@@ -55,7 +55,7 @@ Based on these results, we would recommend reviewing supplier costs, prices and 
 
 **Transition:** “Now we'll connect profitability to discounts and geography.”
 
-## Member 4 — Discounts, Geography and BI Interaction (slides 7–8)
+## Marco Antonio Caamal Chi (2302075) — Discounts, Geography and BI Interaction (slides 7–8)
 
 "We divided order lines into four discount groups: no discount, discounts up to 20%, discounts between 20 and 40%, and discounts above 40%.
 
@@ -71,7 +71,7 @@ These patterns demonstrate why interactive filtering and drill-down matter: mana
 
 **Transition:** “We will finish with practical recommendations and limitations.”
 
-## Member 5 — Recommendations, Quality Checks and Closing (slides 9–10)
+## [Fifth member: name and ID pending] — Recommendations, Quality Checks and Closing (slides 9–10)
 
 "Our team proposes three concrete actions.
 

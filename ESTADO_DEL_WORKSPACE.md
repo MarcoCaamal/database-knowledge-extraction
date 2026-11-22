@@ -10,8 +10,10 @@ Workspace: `/home/marco/projects/database-knowledge-extraction`.
 - [x] Presentación PowerPoint de 10 diapositivas y PDF generados en esta carpeta.
 - [x] Guion de exposición para 5 integrantes copiado.
 - [x] Resultados verificados y documentación actualizada.
-- [ ] Archivo nativo Tableau `.twbx` o Power BI `.pbix` no disponible.
+- [x] Archivo nativo Tableau `dashboard/Superstore_Executive_Dashboard.twbx` generado y validado estructuralmente (4 hojas + dashboard + CSV empaquetado).
+- [ ] Apertura visual y prueba de interactividad en Tableau Desktop/Public (no instalado en Linux).
 - [x] Repositorio GitHub público creado y publicado: https://github.com/MarcoCaamal/database-knowledge-extraction
-- [ ] Añadir nombres reales de 5 integrantes y comprobar dashboard visualmente.
+- [x] Nombres de los cuatro integrantes proporcionados agregados a diapositiva y guion.
+- [ ] Agregar nombre y matrícula del quinto integrante requerido; revisar dashboard visualmente.
 
 Para repetir pruebas: `.venv/bin/python scripts/qa.py`.

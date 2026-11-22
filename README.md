@@ -33,10 +33,10 @@ Recompute aggregate verification: `python scripts/verify_data.py`.
 | Executive presentation (PowerPoint) | `presentation/Superstore_Executive_Story.pptx` | **10 editable slides**; team name placeholders pending |
 | Executive presentation (PDF) | `presentation/Superstore_Executive_Story.pdf` | **10 pages** |
 | Team presentation script | `presentation/TEAM_SCRIPT.md` | Ten-minute plan split into five parts |
-| Native Tableau/Power BI | `*.twbx` or `*.pbix` | **NOT CREATED**; see `POWER_BI_GUIDE.md` |
+| Native Tableau/Power BI | `dashboard/Superstore_Executive_Dashboard.twbx` | **Generated** with four worksheets, one dashboard and packaged CSV; XML/schema validated, Tableau Desktop visual test pending |
 | GitHub repository URL | https://github.com/MarcoCaamal/database-knowledge-extraction | **Published publicly** |
 
-The assignment allows an open-source tool in Step 1 option C, but **its final deliverables explicitly request .twbx or .pbix**. We therefore must not claim that Streamlit is guaranteed to satisfy the native dashboard-file rubric. Confirm with the instructor or create the native deliverable.
+The assignment's final deliverables request `.twbx` or `.pbix`. **A packaged Tableau `.twbx` is now included**, alongside the open-source Streamlit alternative. It passed the official Tableau 2026.1 XSD and eight additional XML checks, but must still be opened in Tableau Desktop/Public on a supported Windows/macOS computer before final submission.
 
 ## Project layout
 
@@ -47,7 +47,11 @@ database-knowledge-extraction/
 │   ├── raw/Sample_Superstore.csv
 │   ├── processed/superstore_clean.csv
 │   └── verified_summary.json
-├── dashboard/app.py
+├── dashboard/
+│   ├── app.py                   # tested open-source Streamlit dashboard
+│   ├── Superstore_Executive_Dashboard.twbx  # packaged native Tableau workbook
+│   ├── Superstore_Executive_Dashboard.twb   # XML source
+│   └── sales_orders.csv         # packaged 9,994-line CSV
 ├── outputs/
 │   ├── figures/             # PNG, SVG, interactive Plotly HTML
 │   └── tables/              # CSV aggregations and bootstrap CI
@@ -60,7 +64,8 @@ database-knowledge-extraction/
 │   ├── download_data.py
 │   ├── verify_data.py
 │   ├── build_presentation.py
-│   └── qa.py
+│   ├── qa.py
+│   └── build_tableau_workbook.py
 ├── POWER_BI_GUIDE.md
 ├── INSTRUCCIONES_PARA_ENTREGA.md
 └── requirements.txt

@@ -14,9 +14,9 @@
 
 ## Pendientes de entrega (importantes)
 
-- **Dashboard nativo**: el documento final exige `.pbix` o `.twbx`. Streamlit es código abierto permitido en otra sección del documento, pero **no equivale técnicamente a un archivo nativo**. `POWER_BI_GUIDE.md` explica cómo hacerlo en Power BI.
+- **Dashboard nativo**: ahora existe `dashboard/Superstore_Executive_Dashboard.twbx`, con CSV, 4 hojas, dashboard y un filtro cruzado de categorías. Se validó el archivo XML y su empaquetado, pero **no se pudo abrir visualmente en Tableau Desktop/Public**, porque no está instalado en Linux. Es importante abrirlo en Windows/macOS y verificar su funcionamiento antes de entregar. Streamlit se conserva como alternativa funcional.
 - **GitHub**: el repositorio ya está publicado como público en https://github.com/MarcoCaamal/database-knowledge-extraction. Solo resta comprobar que el enlace abra sin iniciar sesión y actualizar los nombres de integrantes cuando se conozcan.
-- **Nombres**: sustituir `[Member 1]` a `[Member 5]` en la portada del PowerPoint y en el guion.
+- **Nombres**: la presentación y el guion ya contienen a Juan Manuel Sánchez Hernández (2302084), Seir Mendoza Vidal (2302072), José Rodrigo de la Cruz Chim (2302089) y Marco Antonio Caamal Chi (2302075). Falta el quinto integrante exigido por el profesor.
 - **Revisión visual y exposición**: abrir dashboard, ensayar el tiempo, compartir presentación y mirar el último video de la clase (no fue adjuntado).
 
 ## Comandos de comprobación

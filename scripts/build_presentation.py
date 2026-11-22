@@ -129,7 +129,7 @@ txt(s,"THE COST OF\nDISCOUNTING",.66,1.68,11.2,2.15,43,WHITE,True)
 txt(s,"Why strong retail revenue does not guarantee healthy profitability",.66,4.13,10.6,1.02,22,WHITE)
 rect(s,.66,5.57,11.85,.018,MUTED)
 txt(s,"9,994 order lines  •  2015–2018  •  US retail sample",.66,5.82,11,.36,16,WHITE)
-txt(s,"TEAM: [Member 1]  •  [Member 2]  •  [Member 3]  •  [Member 4]  •  [Member 5]",.66,6.65,12,.35,11,GOLD)
+txt(s,"Juan Manuel Sánchez Hernández  ·  2302084     |     Seir Mendoza Vidal  ·  2302072\nJosé Rodrigo de la Cruz Chim  ·  2302089     |     Marco Antonio Caamal Chi  ·  2302075\nFifth member: [name and student ID pending]",.66,6.02,12.0,1.10,13,GOLD)
 
 s=foundation("01 / Setup","The leadership question",2,"How can revenue grow while some regions and product lines lose money?")
 rect(s,.85,2.16,7,3.66,LIGHT,.12)
