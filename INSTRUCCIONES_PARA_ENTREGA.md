@@ -15,7 +15,7 @@
 ## Pendientes de entrega (importantes)
 
 - **Dashboard nativo**: el documento final exige `.pbix` o `.twbx`. Streamlit es código abierto permitido en otra sección del documento, pero **no equivale técnicamente a un archivo nativo**. `POWER_BI_GUIDE.md` explica cómo hacerlo en Power BI.
-- **GitHub**: publicar el repositorio, copiar su URL y comprobar acceso para cualquiera con el enlace. Para GitHub, usar un repositorio público o conceder acceso al docente; no existe un modo privado «cualquiera con enlace».
+- **GitHub**: el repositorio ya está publicado como público en https://github.com/MarcoCaamal/database-knowledge-extraction. Solo resta comprobar que el enlace abra sin iniciar sesión y actualizar los nombres de integrantes cuando se conozcan.
 - **Nombres**: sustituir `[Member 1]` a `[Member 5]` en la portada del PowerPoint y en el guion.
 - **Revisión visual y exposición**: abrir dashboard, ensayar el tiempo, compartir presentación y mirar el último video de la clase (no fue adjuntado).
 

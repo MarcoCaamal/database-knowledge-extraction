@@ -34,7 +34,7 @@ Recompute aggregate verification: `python scripts/verify_data.py`.
 | Executive presentation (PDF) | `presentation/Superstore_Executive_Story.pdf` | **10 pages** |
 | Team presentation script | `presentation/TEAM_SCRIPT.md` | Ten-minute plan split into five parts |
 | Native Tableau/Power BI | `*.twbx` or `*.pbix` | **NOT CREATED**; see `POWER_BI_GUIDE.md` |
-| GitHub repository URL | — | **Not yet published** |
+| GitHub repository URL | https://github.com/MarcoCaamal/database-knowledge-extraction | **Published publicly** |
 
 The assignment allows an open-source tool in Step 1 option C, but **its final deliverables explicitly request .twbx or .pbix**. We therefore must not claim that Streamlit is guaranteed to satisfy the native dashboard-file rubric. Confirm with the instructor or create the native deliverable.
 
@@ -102,13 +102,13 @@ Our arc: **Setup → Conflict/Insight → Resolution**. All five students should
 
 ## GitHub publishing and access
 
-Repository has been initialized locally, but no GitHub remote was created. Before the deadline, publish the project to a **public** repository or grant explicit access to the evaluator. Private GitHub repository URLs are *not* accessible merely through an unlisted URL.
+The project is already published in a public GitHub repository: **https://github.com/MarcoCaamal/database-knowledge-extraction**. Validate that the repository opens without signing in. Public repositories are viewable by everyone with the URL.
 
 ```bash
-gh repo create database-knowledge-extraction --public --source=. --remote=origin --push
+git push origin main
 ```
 
-Only run that command with the team's authorization, and verify the URL in a private browser window. The source video from the latest class was not attached; the team still needs to watch it.
+This repository already has an `origin` remote, so do **not** create it a second time. Use `git push` for updates. The source video from the latest class was not attached; the team still needs to watch it.
 
 ## Limitations
 
