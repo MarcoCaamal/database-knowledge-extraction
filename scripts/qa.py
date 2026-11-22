@@ -48,4 +48,4 @@ if check.returncode==0:
 subprocess.run([str(ROOT/".venv/bin/python"),"-m","py_compile",str(ROOT/"dashboard/app.py")],check=True)
 print(f"PASS: {len(df):,} records, {len(codes)} executed code cells, {len(figures)} figures, {len(tables)} tables")
 print("PASS: 10-slide PowerPoint, PDF, dashboard syntax, independently verified statistics")
-print("WARN: Native TWBX/PBIX file and GitHub repository URL are not yet included")
+print("WARN: Native TWBX/PBIX file remains outstanding; public GitHub repository is published")
